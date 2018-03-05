@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "George Washington University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Gelman Library, Room 201, 2130 H Street NW, Washington DC, 20052"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
@@ -12,7 +12,7 @@ startdate: 2018-04-11   # machine-readable start date for the workshop in YYYY-M
 enddate: 2018-04-12   # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Abhijit Dasgupta", "Daniel Wheeler"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["gabiamr@gwu.edu", "schroerk@gwu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["schroerk@gwu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  http://pad.software-carpentry.org/2018-04-11-gwu           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -117,7 +117,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). If you do not have your own laptop, there are loaner laptops available with the software preinstalled, but the organizers
+  need to know if you require one a few day before the workshop starts.
+  Please contact schroerk@gwu.edu if you are interested in a loaner laptop.
+  They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
