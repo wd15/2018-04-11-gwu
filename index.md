@@ -14,7 +14,7 @@ instructor: ["Abhijit Dasgupta", "Daniel Wheeler"] # boxed, comma-separated list
 helper: ["Hadi Mohammadi", "Liem Nguyen", "Jason Hurlburt", "Marco Suarez", "Dr. Kes Schroer", "Justin Littman", "Laura Wrubel", "Megan Potterbusch"]
 email: ["schroerk@gwu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  http://pad.software-carpentry.org/2018-04-11-gwu           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "43754579124"  # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
