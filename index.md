@@ -604,3 +604,16 @@ eventbrite: "43754579124"  # optional: alphanumeric key for Eventbrite registrat
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+
+
+## Data Setup
+
+After setting up the computational environment, please try and
+download sets of data required for both the Unix Shell lesson and the
+Python lesson.
+
+For the Unix Shell lesson follow the instructions [outlined
+here](http://swcarpentry.github.io/shell-novice/setup.html) and for
+the Python lesson follow the instructions [outlined
+here](http://swcarpentry.github.io/python-novice-gapminder/setup)
+under the "Getting the Data" subheading.
